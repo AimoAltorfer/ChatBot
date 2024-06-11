@@ -36,3 +36,23 @@ C:\Users\HansO\OneDrive - ipso! Bildung\Modul 320\ChatBot\ChatBot\obj\Debug\net7
 C:\Users\HansO\OneDrive - ipso! Bildung\Modul 320\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.pdb
 C:\Users\HansO\OneDrive - ipso! Bildung\Modul 320\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.genruntimeconfig.cache
 C:\Users\HansO\OneDrive - ipso! Bildung\Modul 320\ChatBot\ChatBot\obj\Debug\net7.0-windows\ref\ChatBot.dll
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\App.g.cs
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot_MarkupCompile.cache
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.g.resources
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.AssemblyInfoInputs.cache
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.AssemblyInfo.cs
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.csproj.CoreCompileInputs.cache
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.sourcelink.json
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.dll
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\refint\ChatBot.dll
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.pdb
+D:\Github\ChatBot\ChatBot\bin\Debug\net7.0-windows\ChatBot.exe
+D:\Github\ChatBot\ChatBot\bin\Debug\net7.0-windows\ChatBot.deps.json
+D:\Github\ChatBot\ChatBot\bin\Debug\net7.0-windows\ChatBot.runtimeconfig.json
+D:\Github\ChatBot\ChatBot\bin\Debug\net7.0-windows\ChatBot.dll
+D:\Github\ChatBot\ChatBot\bin\Debug\net7.0-windows\ChatBot.pdb
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ChatBot.genruntimeconfig.cache
+D:\Github\ChatBot\ChatBot\obj\Debug\net7.0-windows\ref\ChatBot.dll

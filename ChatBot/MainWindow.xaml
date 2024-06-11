@@ -1,10 +1,30 @@
 ﻿<Window x:Class="ChatBot.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ChatBot" Height="350" Width="525">
+        Title="ChatBot" Height="400" Width="650" Background="#FFFAFAFA">
     <Grid>
-        <TextBox Name="ChatBox" IsReadOnly="True" Margin="10,10,10,40" VerticalScrollBarVisibility="Auto"/>
-        <TextBox Name="InputBox" Margin="10,0,75,10" VerticalAlignment="Bottom" Height="30"/>
-        <Button Content="Senden" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,10" Width="60" Click="Button_Click" Height="30"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="ChatBot" FontSize="24" FontWeight="Bold" Foreground="#FF333333" HorizontalAlignment="Center" Margin="10"/>
+
+        <ListView Name="ChatList" Grid.Row="1" Margin="10" BorderThickness="1" BorderBrush="#FFCCCCCC">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding}" TextWrapping="Wrap" Foreground="#FF333333"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <TextBox Name="InputBox" Width="400" Height="30" Margin="0,0,10,0" VerticalAlignment="Center"/>
+            <Button Content="Senden" Width="75" Height="30" Click="Button_Click" VerticalAlignment="Center" Margin="0,0,10,0" Background="#FF4CAF50" Foreground="White"/>
+            <Button Content="Verlauf löschen" Width="120" Height="30" Click="ClearHistory_Click" VerticalAlignment="Center" Background="#FFF44336" Foreground="White"/>
+        </StackPanel>
     </Grid>
 </Window>

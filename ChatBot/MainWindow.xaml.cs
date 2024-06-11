@@ -3,18 +3,24 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows;
-using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace ChatBot
 {
     public partial class MainWindow : Window
     {
         Dictionary<string, string> responses;
+        ObservableCollection<string> chatMessages;
+        private string logFilePath = "chatlog.txt";
 
         public MainWindow()
         {
             InitializeComponent();
             LoadResponses();
+            chatMessages = new ObservableCollection<string>();
+            ChatList.ItemsSource = chatMessages;
+            EnsureLogFileExists();
+            LoadChatHistory();
         }
 
         private void LoadResponses()
@@ -30,15 +36,41 @@ namespace ChatBot
             }
         }
 
+        private void EnsureLogFileExists()
+        {
+            if (!File.Exists(logFilePath))
+            {
+                using (File.Create(logFilePath)) { }
+            }
+        }
+
+        private void LoadChatHistory()
+        {
+            foreach (var line in File.ReadLines(logFilePath))
+            {
+                chatMessages.Add(line);
+            }
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var input = InputBox.Text.ToLower();
-            ChatBox.AppendText("Du: " + input + Environment.NewLine);
+            var userMessage = "Du: " + input;
+            chatMessages.Add(userMessage);
+            LogMessage(userMessage);
 
             var response = GetResponse(input);
-            ChatBox.AppendText("Bot: " + response + Environment.NewLine);
+            var botMessage = "Bot: " + response;
+            chatMessages.Add(botMessage);
+            LogMessage(botMessage);
 
             InputBox.Clear();
+        }
+
+        private void ClearHistory_Click(object sender, RoutedEventArgs e)
+        {
+            chatMessages.Clear();
+            File.WriteAllText(logFilePath, string.Empty);
         }
 
         private string GetResponse(string input)
@@ -75,6 +107,14 @@ namespace ChatBot
             }
 
             return d[n, m];
+        }
+
+        private void LogMessage(string message)
+        {
+            using (StreamWriter writer = new StreamWriter(logFilePath, true))
+            {
+                writer.WriteLine($"{DateTime.Now}: {message}");
+            }
         }
     }
 }

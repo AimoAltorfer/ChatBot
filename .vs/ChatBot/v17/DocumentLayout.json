@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\",
+  "WorkspaceRootPath": "D:\\Github\\ChatBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|c:\\users\\hanso\\onedrive - ipso! bildung\\modul 320\\chatbot\\chatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|d:\\github\\chatbot\\chatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|c:\\users\\hanso\\onedrive - ipso! bildung\\modul 320\\chatbot\\chatbot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|d:\\github\\chatbot\\chatbot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\chatbot\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|D:\\Github\\ChatBot\\chatbot\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|c:\\users\\hanso\\onedrive - ipso! bildung\\modul 320\\chatbot\\chatbot\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|d:\\github\\chatbot\\chatbot\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E2D93D60-2038-4B19-A5C3-F3B1D1729B56}|ChatBot\\ChatBot.csproj|solutionrelative:chatbot\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,10 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\ClassDiagram1.cd",
+              "DocumentMoniker": "D:\\Github\\ChatBot\\ChatBot\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "ChatBot\\ClassDiagram1.cd",
               "ToolTip": "C:\\Users\\aimoa\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\ClassDiagram1.cd*",
-              "RelativeToolTip": "..\\..\\..\\..\\aimoa\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\ClassDiagram1.cd*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000968|",
               "WhenOpened": "2024-06-09T14:10:39.114Z"
             },
@@ -43,9 +42,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\App.xaml",
+              "DocumentMoniker": "D:\\Github\\ChatBot\\ChatBot\\App.xaml",
               "RelativeDocumentMoniker": "ChatBot\\App.xaml",
-              "ToolTip": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\App.xaml",
+              "ToolTip": "D:\\Github\\ChatBot\\ChatBot\\App.xaml",
               "RelativeToolTip": "ChatBot\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-09T14:10:39.217Z",
@@ -55,10 +54,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Github\\ChatBot\\ChatBot\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChatBot\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\MainWindow.xaml*",
-              "RelativeToolTip": "ChatBot\\MainWindow.xaml*",
+              "ToolTip": "D:\\Github\\ChatBot\\ChatBot\\MainWindow.xaml",
+              "RelativeToolTip": "ChatBot\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-09T14:10:39.232Z",
               "EditorCaption": ""
@@ -67,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\ChatBot\\ChatBot\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChatBot\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\HansO\\OneDrive - ipso! Bildung\\Modul 320\\ChatBot\\ChatBot\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Github\\ChatBot\\ChatBot\\MainWindow.xaml.cs",
               "RelativeToolTip": "ChatBot\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAYwHgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T14:10:39.235Z",
               "EditorCaption": ""
