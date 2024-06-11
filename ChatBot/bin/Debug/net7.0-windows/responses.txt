@@ -1,4 +1,3 @@
-
 Hallo=Grüezi! Wie kann ich Ihnen helfen?
 Wie geht's?=Mir geht es gut, danke! Und Ihnen?
 Was machst du?=Ich bin ein ChatBot, also verarbeite ich Nachrichten und gebe Antworten.
@@ -31,3 +30,11 @@ Was passiert nach dem Projektabschluss?=Wir bieten weiterhin Support und Wartung
 Habt ihr eine Notfallhotline?=Ja, für dringende Fälle haben wir eine Notfallhotline.
 Könnt ihr bestehende Software anpassen?=Ja, wir können Ihre bestehende Software an Ihre aktuellen Bedürfnisse anpassen.
 Was ist eure Philosophie?=Unsere Philosophie ist es, innovative und nachhaltige IT-Lösungen zu bieten, die den Erfolg unserer Kunden fördern.
+Wie funktioniert die IT-Beratung?=Wir analysieren Ihre Bedürfnisse und bieten maßgeschneiderte Lösungen an.
+Wie läuft ein typisches Projekt ab?=Ein typisches Projekt umfasst die Bedarfsanalyse, Planung, Entwicklung, Testen und Implementierung.
+Könnt ihr Cloud-Lösungen anbieten?=Ja, wir bieten umfassende Cloud-Services an, einschließlich Migration und Verwaltung.
+Welche Programmiersprachen verwendet ihr?=Wir arbeiten mit verschiedenen Programmiersprachen, darunter Java, Python, C# und JavaScript.
+Könnt ihr bestehende Systeme integrieren?=Ja, wir haben Erfahrung in der Integration neuer Lösungen in bestehende Systeme.
+Habt ihr branchenspezifische Lösungen?=Ja, wir bieten IT-Lösungen für verschiedene Branchen, wie Gesundheitswesen, Finanzen und Einzelhandel an.
+Bietet ihr auch mobile App-Entwicklung an?=Ja, wir entwickeln mobile Apps für iOS und Android.
+Wie geht ihr mit Datenschutz um?=Wir halten uns streng an die Datenschutzgesetze und implementieren robuste Sicherheitsmaßnahmen.
